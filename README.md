@@ -67,6 +67,9 @@ There are no strict requirements to this step, other than to use `Card`, `Button
 
 ![](_figures/step5.png)
 
-## Done! 🥳
+### Submission
+**Before submitting to Gradescope, you have one more thing to do!** In the root directory (that contains this `README.md`). Create a file named `.badgerid`. Then, paste your Badger ID (and only your BadgerID; no spaces or newline characters) into this file. This is used by Gradescope in your submission.
 
-Congrats! Add, commit, and push your files to GitHub Classroom and paste your commit hash in the Canvas assignment.
+Finally, add, commit, and push your changed files to your GitHub Classroom repository. Then, zip the `hw3` folder and submit to Gradescope. Autograding tests should complete within a few minutes. Review your results, and submit as many times as you need up until the assignment deadline. 🥳
+
+**Important:** Gradescope expects everything to be within the `hw3` zip. If the file path is not prefixed with `hw3` as below, you will *not* pass the autograder. Other files such as figures and git files can be included, but are ignored by the autograding process.
