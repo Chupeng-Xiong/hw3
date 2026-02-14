@@ -7,7 +7,7 @@ export default function FeaturedItem(props) {
     const {name, description, price, img, nutrition} = props;
     const [showNutrition, setShowNutrition] = useState(false);
 
-    const calories = nutrition?.calories ?? "0";
+    const calories = nutrition?.calories ?? "0g";
     const fat = nutrition?.fat ?? "0g";
     const carbohydrates = nutrition?.carbohydrates ?? "0g";
     const protein = nutrition?.protein ?? "0g";
